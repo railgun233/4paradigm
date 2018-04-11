@@ -2,8 +2,8 @@
 
 mkdir build
 cd build
-cmake -j64 .. 
-make -j64
+cmake -j16 .. 
+make -j16
 
 # install python package
 
