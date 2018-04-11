@@ -18,6 +18,7 @@ xl=`pwd`/xlearn_train
 cd ../../../
 mkdir -p dev/bin
 cd dev/bin
+ln -s $xl ./
 dir=`pwd`
 echo export PATH=$dir:$PATH >> ~/.bashrc
 source ~/.bashrc
