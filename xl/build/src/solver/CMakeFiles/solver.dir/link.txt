@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsolver.a  CMakeFiles/solver.dir/checker.cc.o CMakeFiles/solver.dir/trainer.cc.o CMakeFiles/solver.dir/inference.cc.o CMakeFiles/solver.dir/solver.cc.o
+/usr/bin/ranlib libsolver.a

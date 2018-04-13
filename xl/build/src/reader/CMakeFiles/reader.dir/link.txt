@@ -1,0 +1,2 @@
+/usr/bin/ar cr libreader.a  CMakeFiles/reader.dir/parser.cc.o CMakeFiles/reader.dir/file_splitor.cc.o CMakeFiles/reader.dir/reader.cc.o
+/usr/bin/ranlib libreader.a

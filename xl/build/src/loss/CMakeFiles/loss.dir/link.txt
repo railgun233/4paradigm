@@ -1,0 +1,2 @@
+/usr/bin/ar cr libloss.a  CMakeFiles/loss.dir/loss.cc.o CMakeFiles/loss.dir/squared_loss.cc.o CMakeFiles/loss.dir/cross_entropy_loss.cc.o CMakeFiles/loss.dir/metric.cc.o
+/usr/bin/ranlib libloss.a

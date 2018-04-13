@@ -1,0 +1,2 @@
+/usr/bin/ar cr libdata.a  CMakeFiles/data.dir/model_parameters.cc.o
+/usr/bin/ranlib libdata.a

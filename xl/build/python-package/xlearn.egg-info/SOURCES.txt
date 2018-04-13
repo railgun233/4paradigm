@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+../lib/libxlearn_api.so
+test/test_data_conversion.py
+test/test_python.py
+xlearn/VERSION
+xlearn/__init__.py
+xlearn/_sklearn.py
+xlearn/base.py
+xlearn/libpath.py
+xlearn/xlearn.py
+xlearn.egg-info/PKG-INFO
+xlearn.egg-info/SOURCES.txt
+xlearn.egg-info/dependency_links.txt
+xlearn.egg-info/not-zip-safe
+xlearn.egg-info/top_level.txt

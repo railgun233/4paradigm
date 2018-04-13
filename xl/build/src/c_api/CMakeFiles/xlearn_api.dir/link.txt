@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libxlearn_api.a  CMakeFiles/xlearn_api.dir/c_api.cc.o CMakeFiles/xlearn_api.dir/c_api_error.cc.o
+/usr/bin/ranlib ../../lib/libxlearn_api.a

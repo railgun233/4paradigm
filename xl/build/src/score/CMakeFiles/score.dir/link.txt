@@ -1,0 +1,2 @@
+/usr/bin/ar cr libscore.a  CMakeFiles/score.dir/score_function.cc.o CMakeFiles/score.dir/linear_score.cc.o CMakeFiles/score.dir/fm_score.cc.o CMakeFiles/score.dir/ffm_score.cc.o
+/usr/bin/ranlib libscore.a
