@@ -232,8 +232,8 @@ clean: src/base/CMakeFiles/base.dir/clean
 # Target rules for target src/base/CMakeFiles/file_util_test.dir
 
 # All Build rule for target.
-src/base/CMakeFiles/file_util_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/base/CMakeFiles/file_util_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+src/base/CMakeFiles/file_util_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/base/CMakeFiles/file_util_test.dir/all: src/base/CMakeFiles/base.dir/all
 	$(MAKE) -f src/base/CMakeFiles/file_util_test.dir/build.make src/base/CMakeFiles/file_util_test.dir/depend
 	$(MAKE) -f src/base/CMakeFiles/file_util_test.dir/build.make src/base/CMakeFiles/file_util_test.dir/build
@@ -269,8 +269,8 @@ clean: src/base/CMakeFiles/file_util_test.dir/clean
 # Target rules for target src/base/CMakeFiles/levenshtein_distance_test.dir
 
 # All Build rule for target.
-src/base/CMakeFiles/levenshtein_distance_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/base/CMakeFiles/levenshtein_distance_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+src/base/CMakeFiles/levenshtein_distance_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/base/CMakeFiles/levenshtein_distance_test.dir/all: src/base/CMakeFiles/base.dir/all
 	$(MAKE) -f src/base/CMakeFiles/levenshtein_distance_test.dir/build.make src/base/CMakeFiles/levenshtein_distance_test.dir/depend
 	$(MAKE) -f src/base/CMakeFiles/levenshtein_distance_test.dir/build.make src/base/CMakeFiles/levenshtein_distance_test.dir/build
@@ -306,8 +306,8 @@ clean: src/base/CMakeFiles/levenshtein_distance_test.dir/clean
 # Target rules for target src/base/CMakeFiles/thread_pool_test.dir
 
 # All Build rule for target.
-src/base/CMakeFiles/thread_pool_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/base/CMakeFiles/thread_pool_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+src/base/CMakeFiles/thread_pool_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/base/CMakeFiles/thread_pool_test.dir/all: src/base/CMakeFiles/base.dir/all
 	$(MAKE) -f src/base/CMakeFiles/thread_pool_test.dir/build.make src/base/CMakeFiles/thread_pool_test.dir/depend
 	$(MAKE) -f src/base/CMakeFiles/thread_pool_test.dir/build.make src/base/CMakeFiles/thread_pool_test.dir/build
@@ -397,10 +397,10 @@ clean: src/data/CMakeFiles/data.dir/clean
 # Target rules for target src/data/CMakeFiles/data_structure_test.dir
 
 # All Build rule for target.
-src/data/CMakeFiles/data_structure_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/data/CMakeFiles/data_structure_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/data/CMakeFiles/data_structure_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/data/CMakeFiles/data_structure_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/data/CMakeFiles/data_structure_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/data/CMakeFiles/data_structure_test.dir/all: src/data/CMakeFiles/data.dir/all
 	$(MAKE) -f src/data/CMakeFiles/data_structure_test.dir/build.make src/data/CMakeFiles/data_structure_test.dir/depend
 	$(MAKE) -f src/data/CMakeFiles/data_structure_test.dir/build.make src/data/CMakeFiles/data_structure_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  9
@@ -435,10 +435,10 @@ clean: src/data/CMakeFiles/data_structure_test.dir/clean
 # Target rules for target src/data/CMakeFiles/model_parameters_test.dir
 
 # All Build rule for target.
-src/data/CMakeFiles/model_parameters_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/data/CMakeFiles/model_parameters_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/data/CMakeFiles/model_parameters_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/data/CMakeFiles/model_parameters_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/data/CMakeFiles/model_parameters_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/data/CMakeFiles/model_parameters_test.dir/all: src/data/CMakeFiles/data.dir/all
 	$(MAKE) -f src/data/CMakeFiles/model_parameters_test.dir/build.make src/data/CMakeFiles/model_parameters_test.dir/depend
 	$(MAKE) -f src/data/CMakeFiles/model_parameters_test.dir/build.make src/data/CMakeFiles/model_parameters_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  25
@@ -494,10 +494,10 @@ src/reader/preinstall:
 # Target rules for target src/reader/CMakeFiles/file_splitor_test.dir
 
 # All Build rule for target.
-src/reader/CMakeFiles/file_splitor_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/reader/CMakeFiles/file_splitor_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/reader/CMakeFiles/file_splitor_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/reader/CMakeFiles/file_splitor_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/reader/CMakeFiles/file_splitor_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/reader/CMakeFiles/file_splitor_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/reader/CMakeFiles/file_splitor_test.dir/all: src/reader/CMakeFiles/reader.dir/all
 	$(MAKE) -f src/reader/CMakeFiles/file_splitor_test.dir/build.make src/reader/CMakeFiles/file_splitor_test.dir/depend
 	$(MAKE) -f src/reader/CMakeFiles/file_splitor_test.dir/build.make src/reader/CMakeFiles/file_splitor_test.dir/build
@@ -533,10 +533,10 @@ clean: src/reader/CMakeFiles/file_splitor_test.dir/clean
 # Target rules for target src/reader/CMakeFiles/parser_test.dir
 
 # All Build rule for target.
-src/reader/CMakeFiles/parser_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/reader/CMakeFiles/parser_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/reader/CMakeFiles/parser_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/reader/CMakeFiles/parser_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/reader/CMakeFiles/parser_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/reader/CMakeFiles/parser_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/reader/CMakeFiles/parser_test.dir/all: src/reader/CMakeFiles/reader.dir/all
 	$(MAKE) -f src/reader/CMakeFiles/parser_test.dir/build.make src/reader/CMakeFiles/parser_test.dir/depend
 	$(MAKE) -f src/reader/CMakeFiles/parser_test.dir/build.make src/reader/CMakeFiles/parser_test.dir/build
@@ -572,8 +572,8 @@ clean: src/reader/CMakeFiles/parser_test.dir/clean
 # Target rules for target src/reader/CMakeFiles/reader.dir
 
 # All Build rule for target.
-src/reader/CMakeFiles/reader.dir/all: src/data/CMakeFiles/data.dir/all
 src/reader/CMakeFiles/reader.dir/all: src/base/CMakeFiles/base.dir/all
+src/reader/CMakeFiles/reader.dir/all: src/data/CMakeFiles/data.dir/all
 	$(MAKE) -f src/reader/CMakeFiles/reader.dir/build.make src/reader/CMakeFiles/reader.dir/depend
 	$(MAKE) -f src/reader/CMakeFiles/reader.dir/build.make src/reader/CMakeFiles/reader.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  28 29 30
@@ -608,10 +608,10 @@ clean: src/reader/CMakeFiles/reader.dir/clean
 # Target rules for target src/reader/CMakeFiles/reader_test.dir
 
 # All Build rule for target.
-src/reader/CMakeFiles/reader_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/reader/CMakeFiles/reader_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/reader/CMakeFiles/reader_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/reader/CMakeFiles/reader_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/reader/CMakeFiles/reader_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/reader/CMakeFiles/reader_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/reader/CMakeFiles/reader_test.dir/all: src/reader/CMakeFiles/reader.dir/all
 	$(MAKE) -f src/reader/CMakeFiles/reader_test.dir/build.make src/reader/CMakeFiles/reader_test.dir/depend
 	$(MAKE) -f src/reader/CMakeFiles/reader_test.dir/build.make src/reader/CMakeFiles/reader_test.dir/build
@@ -670,11 +670,11 @@ src/score/preinstall:
 # Target rules for target src/score/CMakeFiles/ffm_score_test.dir
 
 # All Build rule for target.
-src/score/CMakeFiles/ffm_score_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/score/CMakeFiles/ffm_score_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+src/score/CMakeFiles/ffm_score_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
+src/score/CMakeFiles/ffm_score_test.dir/all: src/base/CMakeFiles/base.dir/all
 src/score/CMakeFiles/ffm_score_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/score/CMakeFiles/ffm_score_test.dir/all: src/score/CMakeFiles/score.dir/all
-src/score/CMakeFiles/ffm_score_test.dir/all: src/base/CMakeFiles/base.dir/all
 	$(MAKE) -f src/score/CMakeFiles/ffm_score_test.dir/build.make src/score/CMakeFiles/ffm_score_test.dir/depend
 	$(MAKE) -f src/score/CMakeFiles/ffm_score_test.dir/build.make src/score/CMakeFiles/ffm_score_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  11
@@ -709,11 +709,11 @@ clean: src/score/CMakeFiles/ffm_score_test.dir/clean
 # Target rules for target src/score/CMakeFiles/fm_score_test.dir
 
 # All Build rule for target.
-src/score/CMakeFiles/fm_score_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/score/CMakeFiles/fm_score_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+src/score/CMakeFiles/fm_score_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
+src/score/CMakeFiles/fm_score_test.dir/all: src/base/CMakeFiles/base.dir/all
 src/score/CMakeFiles/fm_score_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/score/CMakeFiles/fm_score_test.dir/all: src/score/CMakeFiles/score.dir/all
-src/score/CMakeFiles/fm_score_test.dir/all: src/base/CMakeFiles/base.dir/all
 	$(MAKE) -f src/score/CMakeFiles/fm_score_test.dir/build.make src/score/CMakeFiles/fm_score_test.dir/depend
 	$(MAKE) -f src/score/CMakeFiles/fm_score_test.dir/build.make src/score/CMakeFiles/fm_score_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  14
@@ -748,11 +748,11 @@ clean: src/score/CMakeFiles/fm_score_test.dir/clean
 # Target rules for target src/score/CMakeFiles/linear_score_test.dir
 
 # All Build rule for target.
-src/score/CMakeFiles/linear_score_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/score/CMakeFiles/linear_score_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+src/score/CMakeFiles/linear_score_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
+src/score/CMakeFiles/linear_score_test.dir/all: src/base/CMakeFiles/base.dir/all
 src/score/CMakeFiles/linear_score_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/score/CMakeFiles/linear_score_test.dir/all: src/score/CMakeFiles/score.dir/all
-src/score/CMakeFiles/linear_score_test.dir/all: src/base/CMakeFiles/base.dir/all
 	$(MAKE) -f src/score/CMakeFiles/linear_score_test.dir/build.make src/score/CMakeFiles/linear_score_test.dir/depend
 	$(MAKE) -f src/score/CMakeFiles/linear_score_test.dir/build.make src/score/CMakeFiles/linear_score_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  18
@@ -787,8 +787,8 @@ clean: src/score/CMakeFiles/linear_score_test.dir/clean
 # Target rules for target src/score/CMakeFiles/score.dir
 
 # All Build rule for target.
-src/score/CMakeFiles/score.dir/all: src/data/CMakeFiles/data.dir/all
 src/score/CMakeFiles/score.dir/all: src/base/CMakeFiles/base.dir/all
+src/score/CMakeFiles/score.dir/all: src/data/CMakeFiles/data.dir/all
 	$(MAKE) -f src/score/CMakeFiles/score.dir/build.make src/score/CMakeFiles/score.dir/depend
 	$(MAKE) -f src/score/CMakeFiles/score.dir/build.make src/score/CMakeFiles/score.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  32 33 34 35
@@ -823,11 +823,11 @@ clean: src/score/CMakeFiles/score.dir/clean
 # Target rules for target src/score/CMakeFiles/score_function_test.dir
 
 # All Build rule for target.
-src/score/CMakeFiles/score_function_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/score/CMakeFiles/score_function_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+src/score/CMakeFiles/score_function_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
+src/score/CMakeFiles/score_function_test.dir/all: src/base/CMakeFiles/base.dir/all
 src/score/CMakeFiles/score_function_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/score/CMakeFiles/score_function_test.dir/all: src/score/CMakeFiles/score.dir/all
-src/score/CMakeFiles/score_function_test.dir/all: src/base/CMakeFiles/base.dir/all
 	$(MAKE) -f src/score/CMakeFiles/score_function_test.dir/build.make src/score/CMakeFiles/score_function_test.dir/depend
 	$(MAKE) -f src/score/CMakeFiles/score_function_test.dir/build.make src/score/CMakeFiles/score_function_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  36
@@ -885,12 +885,12 @@ src/loss/preinstall:
 # Target rules for target src/loss/CMakeFiles/cross_entropy_loss_test.dir
 
 # All Build rule for target.
-src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: src/data/CMakeFiles/data.dir/all
-src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/loss/CMakeFiles/cross_entropy_loss_test.dir/all: src/loss/CMakeFiles/loss.dir/all
 	$(MAKE) -f src/loss/CMakeFiles/cross_entropy_loss_test.dir/build.make src/loss/CMakeFiles/cross_entropy_loss_test.dir/depend
 	$(MAKE) -f src/loss/CMakeFiles/cross_entropy_loss_test.dir/build.make src/loss/CMakeFiles/cross_entropy_loss_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  7
@@ -925,9 +925,9 @@ clean: src/loss/CMakeFiles/cross_entropy_loss_test.dir/clean
 # Target rules for target src/loss/CMakeFiles/loss.dir
 
 # All Build rule for target.
+src/loss/CMakeFiles/loss.dir/all: src/base/CMakeFiles/base.dir/all
 src/loss/CMakeFiles/loss.dir/all: src/data/CMakeFiles/data.dir/all
 src/loss/CMakeFiles/loss.dir/all: src/score/CMakeFiles/score.dir/all
-src/loss/CMakeFiles/loss.dir/all: src/base/CMakeFiles/base.dir/all
 	$(MAKE) -f src/loss/CMakeFiles/loss.dir/build.make src/loss/CMakeFiles/loss.dir/depend
 	$(MAKE) -f src/loss/CMakeFiles/loss.dir/build.make src/loss/CMakeFiles/loss.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  19 20 21 22
@@ -962,12 +962,12 @@ clean: src/loss/CMakeFiles/loss.dir/clean
 # Target rules for target src/loss/CMakeFiles/loss_test.dir
 
 # All Build rule for target.
-src/loss/CMakeFiles/loss_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/loss/CMakeFiles/loss_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/loss/CMakeFiles/loss_test.dir/all: src/data/CMakeFiles/data.dir/all
-src/loss/CMakeFiles/loss_test.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/loss/CMakeFiles/loss_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/loss/CMakeFiles/loss_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/loss/CMakeFiles/loss_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/loss/CMakeFiles/loss_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/loss/CMakeFiles/loss_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/loss/CMakeFiles/loss_test.dir/all: src/loss/CMakeFiles/loss.dir/all
 	$(MAKE) -f src/loss/CMakeFiles/loss_test.dir/build.make src/loss/CMakeFiles/loss_test.dir/depend
 	$(MAKE) -f src/loss/CMakeFiles/loss_test.dir/build.make src/loss/CMakeFiles/loss_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  23
@@ -1002,12 +1002,12 @@ clean: src/loss/CMakeFiles/loss_test.dir/clean
 # Target rules for target src/loss/CMakeFiles/metric_test.dir
 
 # All Build rule for target.
-src/loss/CMakeFiles/metric_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/loss/CMakeFiles/metric_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/loss/CMakeFiles/metric_test.dir/all: src/data/CMakeFiles/data.dir/all
-src/loss/CMakeFiles/metric_test.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/loss/CMakeFiles/metric_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/loss/CMakeFiles/metric_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/loss/CMakeFiles/metric_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/loss/CMakeFiles/metric_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/loss/CMakeFiles/metric_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/loss/CMakeFiles/metric_test.dir/all: src/loss/CMakeFiles/loss.dir/all
 	$(MAKE) -f src/loss/CMakeFiles/metric_test.dir/build.make src/loss/CMakeFiles/metric_test.dir/depend
 	$(MAKE) -f src/loss/CMakeFiles/metric_test.dir/build.make src/loss/CMakeFiles/metric_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  24
@@ -1042,12 +1042,12 @@ clean: src/loss/CMakeFiles/metric_test.dir/clean
 # Target rules for target src/loss/CMakeFiles/squared_loss_test.dir
 
 # All Build rule for target.
-src/loss/CMakeFiles/squared_loss_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/loss/CMakeFiles/squared_loss_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/loss/CMakeFiles/squared_loss_test.dir/all: src/data/CMakeFiles/data.dir/all
-src/loss/CMakeFiles/squared_loss_test.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/loss/CMakeFiles/squared_loss_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/loss/CMakeFiles/squared_loss_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/loss/CMakeFiles/squared_loss_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/loss/CMakeFiles/squared_loss_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/loss/CMakeFiles/squared_loss_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/loss/CMakeFiles/squared_loss_test.dir/all: src/loss/CMakeFiles/loss.dir/all
 	$(MAKE) -f src/loss/CMakeFiles/squared_loss_test.dir/build.make src/loss/CMakeFiles/squared_loss_test.dir/depend
 	$(MAKE) -f src/loss/CMakeFiles/squared_loss_test.dir/build.make src/loss/CMakeFiles/squared_loss_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  41
@@ -1101,11 +1101,11 @@ src/solver/preinstall:
 # Target rules for target src/solver/CMakeFiles/solver.dir
 
 # All Build rule for target.
-src/solver/CMakeFiles/solver.dir/all: src/data/CMakeFiles/data.dir/all
-src/solver/CMakeFiles/solver.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/solver/CMakeFiles/solver.dir/all: src/score/CMakeFiles/score.dir/all
 src/solver/CMakeFiles/solver.dir/all: src/base/CMakeFiles/base.dir/all
+src/solver/CMakeFiles/solver.dir/all: src/data/CMakeFiles/data.dir/all
 src/solver/CMakeFiles/solver.dir/all: src/reader/CMakeFiles/reader.dir/all
+src/solver/CMakeFiles/solver.dir/all: src/score/CMakeFiles/score.dir/all
+src/solver/CMakeFiles/solver.dir/all: src/loss/CMakeFiles/loss.dir/all
 	$(MAKE) -f src/solver/CMakeFiles/solver.dir/build.make src/solver/CMakeFiles/solver.dir/depend
 	$(MAKE) -f src/solver/CMakeFiles/solver.dir/build.make src/solver/CMakeFiles/solver.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  37 38 39 40
@@ -1140,12 +1140,12 @@ clean: src/solver/CMakeFiles/solver.dir/clean
 # Target rules for target src/solver/CMakeFiles/xlearn_predict.dir
 
 # All Build rule for target.
-src/solver/CMakeFiles/xlearn_predict.dir/all: src/data/CMakeFiles/data.dir/all
-src/solver/CMakeFiles/xlearn_predict.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/solver/CMakeFiles/xlearn_predict.dir/all: src/score/CMakeFiles/score.dir/all
 src/solver/CMakeFiles/xlearn_predict.dir/all: src/base/CMakeFiles/base.dir/all
-src/solver/CMakeFiles/xlearn_predict.dir/all: src/solver/CMakeFiles/solver.dir/all
+src/solver/CMakeFiles/xlearn_predict.dir/all: src/data/CMakeFiles/data.dir/all
 src/solver/CMakeFiles/xlearn_predict.dir/all: src/reader/CMakeFiles/reader.dir/all
+src/solver/CMakeFiles/xlearn_predict.dir/all: src/score/CMakeFiles/score.dir/all
+src/solver/CMakeFiles/xlearn_predict.dir/all: src/loss/CMakeFiles/loss.dir/all
+src/solver/CMakeFiles/xlearn_predict.dir/all: src/solver/CMakeFiles/solver.dir/all
 	$(MAKE) -f src/solver/CMakeFiles/xlearn_predict.dir/build.make src/solver/CMakeFiles/xlearn_predict.dir/depend
 	$(MAKE) -f src/solver/CMakeFiles/xlearn_predict.dir/build.make src/solver/CMakeFiles/xlearn_predict.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  68
@@ -1180,12 +1180,12 @@ clean: src/solver/CMakeFiles/xlearn_predict.dir/clean
 # Target rules for target src/solver/CMakeFiles/xlearn_train.dir
 
 # All Build rule for target.
-src/solver/CMakeFiles/xlearn_train.dir/all: src/data/CMakeFiles/data.dir/all
-src/solver/CMakeFiles/xlearn_train.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/solver/CMakeFiles/xlearn_train.dir/all: src/score/CMakeFiles/score.dir/all
 src/solver/CMakeFiles/xlearn_train.dir/all: src/base/CMakeFiles/base.dir/all
-src/solver/CMakeFiles/xlearn_train.dir/all: src/solver/CMakeFiles/solver.dir/all
+src/solver/CMakeFiles/xlearn_train.dir/all: src/data/CMakeFiles/data.dir/all
 src/solver/CMakeFiles/xlearn_train.dir/all: src/reader/CMakeFiles/reader.dir/all
+src/solver/CMakeFiles/xlearn_train.dir/all: src/score/CMakeFiles/score.dir/all
+src/solver/CMakeFiles/xlearn_train.dir/all: src/loss/CMakeFiles/loss.dir/all
+src/solver/CMakeFiles/xlearn_train.dir/all: src/solver/CMakeFiles/solver.dir/all
 	$(MAKE) -f src/solver/CMakeFiles/xlearn_train.dir/build.make src/solver/CMakeFiles/xlearn_train.dir/depend
 	$(MAKE) -f src/solver/CMakeFiles/xlearn_train.dir/build.make src/solver/CMakeFiles/xlearn_train.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  69
@@ -1272,10 +1272,10 @@ clean: src/distributed/CMakeFiles/distributed.dir/clean
 # Target rules for target src/distributed/CMakeFiles/parameter_server_test.dir
 
 # All Build rule for target.
-src/distributed/CMakeFiles/parameter_server_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/distributed/CMakeFiles/parameter_server_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/distributed/CMakeFiles/parameter_server_test.dir/all: src/data/CMakeFiles/data.dir/all
+src/distributed/CMakeFiles/parameter_server_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/distributed/CMakeFiles/parameter_server_test.dir/all: src/base/CMakeFiles/base.dir/all
+src/distributed/CMakeFiles/parameter_server_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/distributed/CMakeFiles/parameter_server_test.dir/all: src/distributed/CMakeFiles/distributed.dir/all
 	$(MAKE) -f src/distributed/CMakeFiles/parameter_server_test.dir/build.make src/distributed/CMakeFiles/parameter_server_test.dir/depend
 	$(MAKE) -f src/distributed/CMakeFiles/parameter_server_test.dir/build.make src/distributed/CMakeFiles/parameter_server_test.dir/build
@@ -1330,14 +1330,14 @@ src/c_api/preinstall:
 # Target rules for target src/c_api/CMakeFiles/c_api_test.dir
 
 # All Build rule for target.
-src/c_api/CMakeFiles/c_api_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/c_api/CMakeFiles/c_api_test.dir/all: gtest/CMakeFiles/gtest.dir/all
-src/c_api/CMakeFiles/c_api_test.dir/all: src/data/CMakeFiles/data.dir/all
-src/c_api/CMakeFiles/c_api_test.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/c_api/CMakeFiles/c_api_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/c_api/CMakeFiles/c_api_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 src/c_api/CMakeFiles/c_api_test.dir/all: src/base/CMakeFiles/base.dir/all
-src/c_api/CMakeFiles/c_api_test.dir/all: src/solver/CMakeFiles/solver.dir/all
+src/c_api/CMakeFiles/c_api_test.dir/all: src/data/CMakeFiles/data.dir/all
 src/c_api/CMakeFiles/c_api_test.dir/all: src/reader/CMakeFiles/reader.dir/all
+src/c_api/CMakeFiles/c_api_test.dir/all: src/score/CMakeFiles/score.dir/all
+src/c_api/CMakeFiles/c_api_test.dir/all: src/loss/CMakeFiles/loss.dir/all
+src/c_api/CMakeFiles/c_api_test.dir/all: src/solver/CMakeFiles/solver.dir/all
 src/c_api/CMakeFiles/c_api_test.dir/all: src/c_api/CMakeFiles/xlearn_api.dir/all
 	$(MAKE) -f src/c_api/CMakeFiles/c_api_test.dir/build.make src/c_api/CMakeFiles/c_api_test.dir/depend
 	$(MAKE) -f src/c_api/CMakeFiles/c_api_test.dir/build.make src/c_api/CMakeFiles/c_api_test.dir/build
@@ -1373,12 +1373,12 @@ clean: src/c_api/CMakeFiles/c_api_test.dir/clean
 # Target rules for target src/c_api/CMakeFiles/xlearn_api.dir
 
 # All Build rule for target.
-src/c_api/CMakeFiles/xlearn_api.dir/all: src/data/CMakeFiles/data.dir/all
-src/c_api/CMakeFiles/xlearn_api.dir/all: src/loss/CMakeFiles/loss.dir/all
-src/c_api/CMakeFiles/xlearn_api.dir/all: src/score/CMakeFiles/score.dir/all
 src/c_api/CMakeFiles/xlearn_api.dir/all: src/base/CMakeFiles/base.dir/all
-src/c_api/CMakeFiles/xlearn_api.dir/all: src/solver/CMakeFiles/solver.dir/all
+src/c_api/CMakeFiles/xlearn_api.dir/all: src/data/CMakeFiles/data.dir/all
 src/c_api/CMakeFiles/xlearn_api.dir/all: src/reader/CMakeFiles/reader.dir/all
+src/c_api/CMakeFiles/xlearn_api.dir/all: src/score/CMakeFiles/score.dir/all
+src/c_api/CMakeFiles/xlearn_api.dir/all: src/loss/CMakeFiles/loss.dir/all
+src/c_api/CMakeFiles/xlearn_api.dir/all: src/solver/CMakeFiles/solver.dir/all
 	$(MAKE) -f src/c_api/CMakeFiles/xlearn_api.dir/build.make src/c_api/CMakeFiles/xlearn_api.dir/depend
 	$(MAKE) -f src/c_api/CMakeFiles/xlearn_api.dir/build.make src/c_api/CMakeFiles/xlearn_api.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/lh/4paradigm/xl/build/CMakeFiles  43 44
